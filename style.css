@@ -1,0 +1,188 @@
+html {
+    font-size: 16px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background: url(./image/background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    margin-top: 0;
+}
+
+.nav {
+    list-style: none;
+    font-weight: bold;
+    background-color: rgba(202, 72, 87, 0.574);
+    width: 14%;
+    height: 5vh;
+    position: fixed;
+    padding-top: 12px;
+    border-radius:0 5% 5% 0 ;
+}
+
+.nav li {
+    display: inline;
+    margin: 10px;
+}
+
+.nav a:hover {
+    color: orange;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+li:after {
+    content: "\25BC";
+    color: aliceblue;
+    font-size: x-small;
+}
+
+h1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5rem;
+    margin: 0 30px;
+    padding: 40px;
+}
+
+/* main */
+h2 {
+    width: 100%;
+    text-align: center;
+    margin: 100px 0;
+    font-family:cursive;
+}
+
+h2:before {
+    content: "\02014";
+    color: orange;
+    padding-right: 10px;
+    width: 40px;
+}
+
+h2::after {
+    content: "\02014";
+    color: orange;
+    padding-left: 10px;
+    width: 40px;
+}
+
+section {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+section h3 {
+    font-size: 2rem;
+}
+
+section img {
+    width: 50%;
+    border-radius: 10% 10% 0 0;
+}
+
+.firstpar {
+    border-bottom: dotted 2px black;
+    padding-bottom: 100px;
+    font-size: 1.5rem;
+    margin-bottom: 100px;
+    line-height: 40px;
+}
+
+.hotel {
+    display: inline-block;
+    font-size: 2rem;
+    width: 30%;
+    height: 30vh;
+    border-radius: 16% 0 16% 0;
+    padding-left: 20px;
+    margin-bottom: 50px;
+    background-color: rgba(207, 200, 200, 0.664);
+    line-height: 50px;
+}
+.hotel li{
+    list-style: none;
+}
+.hotel p::after{
+    content: "\2605";
+    margin-left: 10px;
+}
+.button{
+ border: solid goldenrod 2px;  
+ width: 8%; 
+ text-align: center;
+ border-radius: 10%;
+ display: inline-block;
+ margin-left: 10px
+}
+.button:hover{
+    background-color: goldenrod;
+    color: white;
+}
+/*
+aside {
+    margin-top: 30px;
+    width: 15%;
+    display: inline-block;
+    float: right;
+    background-color: rgb(45, 86, 81);
+    border-radius: 40px;
+    border-top-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+}
+
+aside ul {
+    margin: 30px 0;
+    list-style: none;
+}
+
+aside ul li {
+    padding: 10px 0;
+    margin: 10px 0
+}
+
+aside ul li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+aside ul li a:hover {
+    color: rgb(86, 174, 218)
+}
+*/
+footer {
+    background-color: rgba(241, 46, 46, 0.81);
+    width: 100%;
+    height: 10vh;
+    padding: 5px;
+    text-align: center;
+    margin-top: 100px;
+}
+footer nav li {
+    display: inline-block;
+}
+footer ul a {
+    text-decoration: none;
+    margin: 20px;
+}
+footer a:hover {
+    color: orange;
+}
