@@ -22,12 +22,12 @@ header {
     list-style: none;
     font-weight: bold;
     background-color: rgba(202, 72, 87, 0.574);
-    width: 14%;
+    width: 30%;
     height: 5vh;
     position: fixed;
-    border-radius:0 5% 5% 0 ;
     display: flex;
     align-items: center;
+    border-radius:0 5% 5% 0 ;
 }
 
 .nav li {
